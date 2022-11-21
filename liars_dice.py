@@ -52,7 +52,7 @@ jack_sparrow = Player('Captain Jack Sparrow', '"?"', 'random')
 davey_jones = Player('Davey Jones', 10, 'The Devil')
 
 def choose_player():
-    print("Who will be in this game?"
+    print("Who will be in this game?")
     print(f"")
     #ADD MENU CHOICES OF PLAYERS POSSIBLE TO ADD TO GAME
     #List all possible choices
@@ -73,7 +73,7 @@ def main_menu():
                         print(f"{players}, players eh? That'll do.\n ")
                         total_dice = int(players) * 5
                         print(f"So we be be playin' with {players} players and {total_dice} dice. ")
-                        print(f" Who shall you be playing against?")
+                        print(f"Who shall you be playing against?")
                         choose_player()
                         print("\n....Roll em' matey.\n")
                         roll = (input("Press Enter to roll your dice"))
